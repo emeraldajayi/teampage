@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+body{
+    font-family: arial,sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+header{
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+header h1{
+    margin-bottom: 10px;
+}
+main{
+    padding: 30px;
+}
+.team-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    flex-basis:22% ;
+width: 45%;
+max-width: 768px;
+text-align: center;
+}
+.team-member {
+    
+    background-color: white;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px ;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+align-items: center;
+
+}
+.team-member img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+margin-bottom: 15px;
+align-items: center;
+}
+.team-member h2{
+    font-size: 20px;
+    margin-bottom: 8px;
+    align-items: center;
+
+}
+.team-member h3{
+    color: #243b55;
+    font-size:15px ;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.team-member p{
+    font-size: 14px;
+    line-height: 1.5;
+    align-items: center;
+}
+footer{
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+nav{
+    text-align: right;
+
+}
+#card1{
+    border: 5px solid;
+    border-radius:30Px ;
+    align-items: center;
+}
+#card2{
+    border:5px solid;
+    border-radius: 30px;
+    align-items: center;
+    
+}
+#card3{
+    border: 5px solid;
+    border-radius:30px ;
+    align-items: center;
+}
+#card4{
+    border: 5px solid;
+    border-radius: 30px;
+    align-items: center;
+}
+#card5{
+    border: 5px solid;
+    border-radius: 30px;
+    align-items: center;
+}
+#card6{
+    border: 5px solid;
+    border-radius: 30px;
+    align-items: center;
+}
+#card7{
+    border: 5px solid;
+    border-radius: 30px;
+}
+#card8{
+    border: 5px solid;
+    border-radius: 30px;
+    align-items: center;
+    
+}
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto 20px auto;
+    align-items: center;
+
+}
