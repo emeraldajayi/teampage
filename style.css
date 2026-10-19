@@ -77,8 +77,14 @@ footer{
     margin-top: 20px;
 }
 nav{
-    text-align: right;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+nav a{
+color: #f4f4f9;
+text-decoration: none;
 }
 #card1{
     border: 5px solid;
